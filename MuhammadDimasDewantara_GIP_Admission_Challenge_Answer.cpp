@@ -4,7 +4,7 @@ Description 	: Program of Sum of Square of Integers Calculation
 I.S 			: Calculation has not been conducted
 F.S				: Calculation has been conducted and display the result of calculation for each test cases.
 Author 		    : Muhammad Dimas Dewantara 
-Date/Version 	: January 12th 2014/0.1
+Date/Version 	: May 22th 2015/0.1
 Requirement     : Using Compiler Dev-C++ 4.9.9.2
 */
 
