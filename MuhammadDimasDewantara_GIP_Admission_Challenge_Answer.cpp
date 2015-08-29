@@ -37,7 +37,6 @@ int N;
 main()
 {
     array = 1; //set array index of sum in 1
-    srand (time(NULL)); //random integers 
     //cout<<"how many sum of square of integers's calculation? ";
     cout << "Input : \n";
     cin >> N;
@@ -108,14 +107,16 @@ void input_integers(int input){
 void sum_of_square(int n){
     //procedure that responsibility to make calculation
     //of sum of square of integers
-    int X = rand() % 101, Yn = (rand() % 100)-100; //automatically assigned 
-    if(n==1 || n == 0){
-        if(X < 0){
-             cout << " " << X;
+    //int X = rand() % 101, Yn = (rand() % 100)-100; //automatically assigned 
+   int Yn;
+   cin >> Yn;
+   if(n==1 || n == 0){
+        if(Yn < 0){
+             cout << " " << Yn;
         }else{
-            cout << X;
-            X = X * X;
-            sum[array] = X; //after calculation has done
+            cout << Yn;
+            Yn = Yn * Yn;
+            sum[array] = Yn; //after calculation has done
         }
     }else{
         sum_of_square(n-1);//recursive technic
@@ -128,4 +129,3 @@ void sum_of_square(int n){
         }
     }
 }
-
